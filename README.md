@@ -41,13 +41,19 @@ sh run.sh
 7. Check the result of pretrained models in log folder and log_robustness folder. Log_robustness folder shows the classification results from single view to all the views provided. Read run.sh for more information.
 
 
-## Classification result for pretrained models
+## Result for pretrained models
 The proposed method is similar to single view based methods when only single view is given and similar to multiview based methods (mv___) when all views are given. The proposed method is more robusted to the number of view given during inference time.
 
 ### MVCNN
 <table>
   <tr>
+    <td colspan="2"></td>
+    <td colspan="2">Classification</td>
+    <td colspan="2">Retrieval</td>
+  </tr>
+  <tr>
     <td colspan="2">Methods</td>
+    <td colspan="2">Number of views</td>
     <td colspan="2">Number of views</td>
   </tr>
   <tr>
