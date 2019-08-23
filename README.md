@@ -43,24 +43,22 @@ sh run.sh
 The proposed method is similar to single view based methods when only single view is given and similar to multiview based methods (mv___) when all views are given. The proposed method is more robusted to the number of view given during inference time.
 
 ### MVCNN
-
-| Number of views | Single view | All views (12) |
+|  |Number of views               |
+|  | Single view | All views (12) |
 :---------------------|:----:|:----:|
 | cnn                 | 84.66 | 87.50 | 
 | mvcnn               | 77.75 | 89.75 | 
 | picnn               | 85.70 | 89.25 |
-:---------------------|:----:|:----:|
 | proxy               | 85.60 | 88.62 | 
 | mvproxy             | 78.39 | 90.38 | 
 | piproxy             | 85.49 | 89.25 |
-:---------------------|:----:|:----:|
 | triplet             | 85.23 | 88.75 | 
 | mvtriplet           | 76.94 | 89.38 | 
 | pitriplet           | 83.50 | 89.38 |
 
 ### ObjectPI
 
-| Number of views | Single view | All views (12) |
+| Number of views | Single view | All views (8) |
 :---------------------|:----:|:----:|
 | cnn                 | 65.82 | 76.53 | 
 | mvcnn               | 59.44 | 77.55 | 
