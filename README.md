@@ -45,8 +45,8 @@ The proposed method is similar to single view based methods when only single vie
 ### MVCNN
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    <td colspan="2">Method</td>
+    <td colspan="2">Number of views</td>
   </tr>
   <tr>
     <td colspan="2">Three</td>
@@ -54,7 +54,7 @@ The proposed method is similar to single view based methods when only single vie
 </table>
 
 
-|  |<td colspan=2> Number of views               |
+|  | Number of views|               |
 |  | Single view | All views (12) |
 :---------------------|:----:|:----:|
 | cnn                 | 84.66 | 87.50 | 
