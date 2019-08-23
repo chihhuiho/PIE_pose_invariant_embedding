@@ -7,7 +7,7 @@ The result presented in the paper is averaged over 5 rounds, so it might be slig
 
 1. Install all required library
 ```
-pip install -r requirements.txt
+conda env create -f environment.yml --name <env_name>
 ```
 
 2. Download ModelNet40 dataset 
