@@ -15,28 +15,30 @@ conda env create -f environment.yml --name <env_name>
 download_modelnet40.sh
 ```
 
-3. Run cnn based methods (cnn, mvcnn, picnn) by: 
+3. Download pretrained models from https://drive.google.com/drive/folders/1l9VASmcr2oRD0PKKgv222syhsVcpU290?usp=sharing and place the pretrain model according to the 
+
+4. Run cnn based methods (cnn, mvcnn, picnn) by: 
 ```
 cd cnn_based
 cd <cnn, mvcnn, picnn>
 sh run.sh
 ```
 
-4. Run proxy based methods (proxy, mvproxy, piproxy) by: 
+5. Run proxy based methods (proxy, mvproxy, piproxy) by: 
 ```
 cd proxy_based
 cd <proxy, mvproxy, piproxy>
 sh run.sh
 ```
 
-5. Run triplet center based methods (triplet, mvtriplet, pitriplet) by: 
+6. Run triplet center based methods (triplet, mvtriplet, pitriplet) by: 
 ```
 cd triplet_center_based
 cd <triplet, mvtriplet, pitriplet>
 sh run.sh
 ```
 
-6. Check the result of pretrained models in log folder and log_robustness folder. Log_robustness folder shows the classification results from single view to all the views provided. Read run.sh for more information.
+7. Check the result of pretrained models in log folder and log_robustness folder. Log_robustness folder shows the classification results from single view to all the views provided. Read run.sh for more information.
 
 
 ## Classification result for pretrained models
