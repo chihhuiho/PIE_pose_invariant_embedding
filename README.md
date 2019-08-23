@@ -15,7 +15,7 @@ conda env create -f environment.yml --name <env_name>
 download_modelnet40.sh
 ```
 
-3. Download pretrained models from https://drive.google.com/drive/folders/1l9VASmcr2oRD0PKKgv222syhsVcpU290?usp=sharing and place the pretrain model according to the 
+3. Download pretrained models from https://drive.google.com/drive/folders/1l9VASmcr2oRD0PKKgv222syhsVcpU290?usp=sharing and place the pretrain models according to the folder organization. 
 
 4. Run cnn based methods (cnn, mvcnn, picnn) by: 
 ```
