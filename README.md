@@ -85,37 +85,86 @@ The proposed method is similar to single view based methods when only single vie
 	<td>85.49</td>
 	<td>89.25</td>
   </tr>
+  <tr>
+    <td rowspan="3">Triplet center based</td> </td>
+    <td>triplet</td>
+	<td>85.23</td>
+	<td>88.75</td>
+  </tr>
+  <tr>
+    <td>mvtriplet</td>
+	<td>76.94</td>
+	<td>89.38</td>
+  </tr>
+  <tr>
+    <td>pitriplet</td>
+	<td>83.50</td>
+	<td>89.38</td>
+  </tr>
 </table>
 
 
-|  | Number of views|               |
-|  | Single view | All views (12) |
-:---------------------|:----:|:----:|
-| cnn                 | 84.66 | 87.50 | 
-| mvcnn               | 77.75 | 89.75 | 
-| picnn               | 85.70 | 89.25 |
-| proxy               | 85.60 | 88.62 | 
-| mvproxy             | 78.39 | 90.38 | 
-| piproxy             | 85.49 | 89.25 |
-| triplet             | 85.23 | 88.75 | 
-| mvtriplet           | 76.94 | 89.38 | 
-| pitriplet           | 83.50 | 89.38 |
-
 ### ObjectPI
 
-| Number of views | Single view | All views (8) |
-:---------------------|:----:|:----:|
-| cnn                 | 65.82 | 76.53 | 
-| mvcnn               | 59.44 | 77.55 | 
-| picnn               | 67.60 | 79.59 |
-:---------------------|:----:|:----:|
-| proxy               | 69.52  | 79.59 | 
-| mvproxy             | 64.03  | 76.53 | 
-| piproxy             | 68.62  | 79.59 |
-:---------------------|:----:|:----:|
-| triplet             | 70.79  | 77.55 | 
-| mvtriplet           | 63.65  | 78.57 | 
-| pitriplet           | 69.64  | 75.51 |
+<table>
+  <tr>
+    <td colspan="2">Methods</td>
+    <td colspan="2">Number of views</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td>Single view</td>
+	<td>All views (12)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">CNN based</td> </td>
+    <td>cnn</td>
+	<td>65.82</td>
+	<td>76.53</td>
+  </tr>
+   <tr>
+    <td>mvcnn</td>
+	<td>59.44</td>
+	<td>77.55</td>
+  </tr>
+   <tr>
+    <td>picnn</td>
+	<td>67.60</td>
+	<td>79.59</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Proxy based</td> </td>
+    <td>proxy</td>
+	<td>69.52</td>
+	<td>79.59</td>
+  </tr>
+  <tr>
+    <td>mvproxy</td>
+	<td>64.03</td>
+	<td>76.53</td>
+  </tr>
+  <tr>
+    <td>piproxy</td>
+	<td>68.62</td>
+	<td>79.59</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Triplet center based</td> </td>
+    <td>triplet</td>
+	<td>70.79</td>
+	<td>77.55</td>
+  </tr>
+  <tr>
+    <td>mvtriplet</td>
+	<td>63.65</td>
+	<td>78.57</td>
+  </tr>
+  <tr>
+    <td>pitriplet</td>
+	<td>69.64</td>
+	<td>75.51</td>
+  </tr>
+</table>
 
 ## Citation
 If you mentioned the method in your research, please cite this article:
