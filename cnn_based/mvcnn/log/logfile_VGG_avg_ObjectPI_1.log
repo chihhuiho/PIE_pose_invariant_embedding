@@ -1,0 +1,12 @@
+2019-08-22 15:50:19,860 - netlog - INFO - ================================================
+2019-08-22 15:50:19,860 - netlog - INFO - Learning Rate: 1e-05
+2019-08-22 15:50:19,860 - netlog - INFO - Classifier: VGG_avg
+2019-08-22 15:50:19,860 - netlog - INFO - Dataset: ObjectPI
+2019-08-22 15:50:19,860 - netlog - INFO - Nbr of Epochs: 40
+2019-08-22 15:50:19,860 - netlog - INFO - Output classes: 25
+2019-08-22 15:50:19,860 - netlog - INFO - Input view: 8
+2019-08-22 15:50:19,860 - netlog - INFO - ================================================
+2019-08-22 15:50:26,127 - netlog - INFO - Start Training
+2019-08-22 15:50:26,128 - netlog - INFO - Start Testing for Best Model
+2019-08-22 15:50:26,129 - netlog - INFO - Loading model
+2019-08-22 15:50:39,969 - netlog - INFO - ==>>> test loss:0.40469772197302145, accuracy:0.7755102040816326

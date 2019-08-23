@@ -1,0 +1,10 @@
+2019-08-22 15:17:31,507 - netlog - INFO - ================================================
+2019-08-22 15:17:31,508 - netlog - INFO - Learning Rate: 0.0001
+2019-08-22 15:17:31,508 - netlog - INFO - Classifier: vgg16
+2019-08-22 15:17:31,508 - netlog - INFO - Dataset: ModelNet
+2019-08-22 15:17:31,508 - netlog - INFO - Epoch: 40
+2019-08-22 15:17:31,508 - netlog - INFO - =========================================================
+2019-08-22 15:17:37,228 - netlog - INFO - Start Training
+2019-08-22 15:17:37,229 - netlog - INFO - Start Testing
+2019-08-22 15:17:37,230 - netlog - INFO - Loading model
+2019-08-22 15:18:35,298 - netlog - INFO - ==>>> test loss:0.3225085430031143, accuracy:0.8465625

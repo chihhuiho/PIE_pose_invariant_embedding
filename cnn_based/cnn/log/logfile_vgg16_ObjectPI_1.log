@@ -1,0 +1,10 @@
+2019-08-22 15:18:40,724 - netlog - INFO - ================================================
+2019-08-22 15:18:40,726 - netlog - INFO - Learning Rate: 0.0001
+2019-08-22 15:18:40,726 - netlog - INFO - Classifier: vgg16
+2019-08-22 15:18:40,726 - netlog - INFO - Dataset: ObjectPI
+2019-08-22 15:18:40,726 - netlog - INFO - Epoch: 40
+2019-08-22 15:18:40,726 - netlog - INFO - =========================================================
+2019-08-22 15:18:46,768 - netlog - INFO - Start Training
+2019-08-22 15:18:46,769 - netlog - INFO - Start Testing
+2019-08-22 15:18:46,770 - netlog - INFO - Loading model
+2019-08-22 15:19:00,747 - netlog - INFO - ==>>> test loss:0.605530118426149, accuracy:0.6581632653061225
