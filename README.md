@@ -43,6 +43,17 @@ sh run.sh
 The proposed method is similar to single view based methods when only single view is given and similar to multiview based methods (mv___) when all views are given. The proposed method is more robusted to the number of view given during inference time.
 
 ### MVCNN
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
+
 |  |<td colspan=2> Number of views               |
 |  | Single view | All views (12) |
 :---------------------|:----:|:----:|
