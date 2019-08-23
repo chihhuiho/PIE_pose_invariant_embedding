@@ -59,6 +59,32 @@ The proposed method is similar to single view based methods when only single vie
 	<td>84.66</td>
 	<td>87.50</td>
   </tr>
+   <tr>
+    <td>mvcnn</td>
+	<td>77.75</td>
+	<td>89.75</td>
+  </tr>
+   <tr>
+    <td>picnn</td>
+	<td>85.70</td>
+	<td>89.25</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Proxy based</td> </td>
+    <td>proxy</td>
+	<td>85.60</td>
+	<td>88.62</td>
+  </tr>
+  <tr>
+    <td>mvproxy</td>
+	<td>78.39</td>
+	<td>90.38</td>
+  </tr>
+  <tr>
+    <td>piproxy</td>
+	<td>85.49</td>
+	<td>89.25</td>
+  </tr>
 </table>
 
 
