@@ -47,25 +47,26 @@ The proposed method is similar to single view based methods when only single vie
 ### MVCNN
 <table>
   <tr>
-    <td colspan="2"></td>
-    <td colspan="2">Classification</td>
-    <td colspan="2">Retrieval</td>
-  </tr>
-  <tr>
     <td colspan="2">Methods</td>
-    <td colspan="2">Number of views</td>
-    <td colspan="2">Number of views</td>
+    <td colspan="2">Classification</td>
+    <td colspan="3">Retrieval</td>
   </tr>
   <tr>
     <td colspan="2"></td>
     <td>Single view</td>
-	<td>All views (12)</td>
+    <td>All views (12)</td>
+    <td>Object retrieval</td>
+    <td>Image Retrieval</td>
+    <td>Shape Retrieval</td>
   </tr>
   <tr>
     <td rowspan="3">CNN based</td> </td>
     <td>cnn</td>
 	<td>84.66</td>
 	<td>87.50</td>
+	<td>58.62</td>
+	<td>42.73</td>
+	<td>57.58</td>
   </tr>
    <tr>
     <td>mvcnn</td>
@@ -117,18 +118,25 @@ The proposed method is similar to single view based methods when only single vie
 <table>
   <tr>
     <td colspan="2">Methods</td>
-    <td colspan="2">Number of views</td>
+    <td colspan="2">Classification</td>
+    <td colspan="3">Retrieval</td>
   </tr>
   <tr>
     <td colspan="2"></td>
     <td>Single view</td>
-	<td>All views (12)</td>
+    <td>All views (12)</td>
+    <td>Object retrieval</td>
+    <td>Image Retrieval</td>
+    <td>Shape Retrieval</td>
   </tr>
   <tr>
     <td rowspan="3">CNN based</td> </td>
     <td>cnn</td>
 	<td>65.82</td>
 	<td>76.53</td>
+	<td>72.23</td>
+	<td>45.09</td>
+	<td>54.95</td>
   </tr>
    <tr>
     <td>mvcnn</td>
