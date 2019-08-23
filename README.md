@@ -36,7 +36,7 @@ cd <triplet, mvtriplet, pitriplet>
 sh run.sh
 ```
 
-6. Check the result of pretrained models in log folder and log_robustness folder. log_robustness folder shows the classification results from single view to all the views provided. Read run.sh for more information.
+6. Check the result of pretrained models in log folder and log_robustness folder. Log_robustness folder shows the classification results from single view to all the views provided. Read run.sh for more information.
 
 
 ## Classification result for pretrained models
